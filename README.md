@@ -26,7 +26,9 @@ Php下载地址：
 http://mirrors.sohu.com/php/php-5.5.38.tar.gz
 
 
+yum install gcc gcc-c++  autoconf automake make cmake bison make perl perl-devel ncurses ncurses-devel
 
+yum install gcc gcc-c++ make cmake
 
 安装apr
 
@@ -65,6 +67,7 @@ make && make install
 cd /usr/local/src/
 wget http://zy-res.oss-cn-hangzhou.aliyuncs.com/apache/httpd-2.4.23.tar.gz 
 tar zxvf httpd-2.4.23.tar.gz
+tar zxvf httpd-2.4.28.tar.gz
 cd httpd-2.4.23
 ./configure \
 --prefix=/usr/local/apache --sysconfdir=/etc/httpd \
