@@ -79,6 +79,13 @@ cd httpd-2.4.23
 --with-mpm=event
 make && make install
 
+cp -rf /usr/local/apache/bin/apachectl /etc/init.d/httpd
+
+vi /etc/init.d/httpd
+在开头第一行的#!/bin/sh下行加上
+#chkconfig:345 85 15
+#description:Start and stops the Apache HTTP Server.
+
 
 
 
