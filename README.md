@@ -86,6 +86,13 @@ vi /etc/init.d/httpd
 #chkconfig:345 85 15
 #description:Start and stops the Apache HTTP Server.
 
+cd 改权限和开机自启
+cd /etc/init.d/
+chmod 755 httpd
+chkconfig --add httpd
+
+
+
 
 
 
