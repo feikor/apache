@@ -85,6 +85,7 @@ vi /etc/init.d/httpd
 在开头第一行的#!/bin/sh下行加上
 #chkconfig:345 85 15
 #description:Start and stops the Apache HTTP Server.
+以上两句必须添加，否则会提示“httpd服务不支持”；第一行3个数字参数意义分别为：哪些Linux级别需要启动httpd(3,4,5)；启动序号(85)；关闭序号(15)。
 
 cd 改权限和开机自启
 cd /etc/init.d/
