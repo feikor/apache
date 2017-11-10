@@ -13,11 +13,17 @@ http://mirror.bit.edu.cn/apache/
 http://mirror.bit.edu.cn/apache/apr/apr-1.6.3.tar.gz
 http://mirror.bit.edu.cn/apache/apr/apr-util-1.6.1.tar.gz
 
+wget http://oss.aliyuncs.com/aliyunecs/onekey/apache/apr-1.5.0.tar.gz
+wget http://oss.aliyuncs.com/aliyunecs/onekey/apache/apr-util-1.5.3.tar.gz
+
 Mysql下载地址：
 http://mirrors.sohu.com/mysql/MySQL-5.6/mysql-5.6.36.tar.gz
 
 Php下载地址：
 http://mirrors.sohu.com/php/php-5.5.38.tar.gz
+
+
+
 
 
 
