@@ -9,4 +9,10 @@ apr下载
 http://apache.osuosl.org/apr/
 http://apache.osuosl.org/
 
+http://mirror.bit.edu.cn/apache/
+
+http://mirror.bit.edu.cn/apache/apr/apr-1.6.3.tar.gz
+http://mirror.bit.edu.cn/apache/apr/apr-util-1.6.1.tar.gz
+
+
 
